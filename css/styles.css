@@ -1,0 +1,207 @@
+.inline li{
+  display: inline-block;
+}
+
+.nav {
+	display: inline;
+	margin: 4px;
+}
+
+.right {
+	float: right;
+}
+
+.logo, .nav li *{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 0px 10px;
+}
+
+.nav li *:hover{
+	color: #aaa;
+}
+
+#navbar {
+    top: 0px;
+    left: 0px;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    z-index: 2;
+    width: -webkit-fill-available;
+}
+
+body {
+	margin: 0px;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+body {
+	background-image: url("../img/kafarna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	padding: 80px 0px 0px 0px;
+	min-height: -webkit-fill-available;
+}
+
+#container {
+	margin: 0 auto;
+	width: 60%;
+	min-width: 500px;
+	background-color: white;
+	opacity: 0.98;
+	border-radius: 15px;
+}
+
+#content {
+	padding: 30px;
+    padding-top: 0px;
+	margin-bottom: 70px;
+}
+
+h1 {
+	padding-top: 20px;	
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 50px;
+}
+
+p {
+	text-align: justify;
+}
+
+.new {
+	width: 200px;
+	height: 220px;
+	margin: 15px;
+	display: inline-block;
+}
+
+.new img {
+	border-radius: 0px 0px 15px 15px;
+}
+
+.new .img {
+    display: table;
+    border: 1px solid #333;
+    box-shadow: black 4px 6px 15px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #333;
+    margin-top: 5px;
+}
+
+#news {
+	width: 100%;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+    height: fit-content;
+    min-height: fit-content;
+}
+
+#footer {
+    height: 23px;
+    bottom: 0px;
+    background-color: white;
+    width: -webkit-fill-available;
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50px 50px 0px 0px;
+    opacity: 0.92;
+}
+
+#page {
+	position: relative;
+	min-height: fit-content;
+	height: -webkit-fill-available;
+}
+
+.new-title {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#kontakty {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.kontakt {
+	text-align: left;
+	display: inline-block;
+	width: 300px;
+	margin: 10px 20px;
+}
+
+.small {
+	height: inherit;
+	vertical-align: top;
+}
+
+
+/*mapka*/
+.mapouter{position:relative;text-align:left;height:300px;width:300px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}
+
+
+/*menu*/
+
+.menu-content {
+	text-align: center;
+	position: relative;
+	vertical-align: top;
+}
+
+.menu-section {
+	width: 300px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu-title {
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: -webkit-fill-available;
+	background-color: #a39161;
+	padding: 5px 10px;
+}
+
+.left {
+	text-align: left;
+	display: inline-block;
+}
+
+.right {
+	float: right;
+	text-align: right;
+	width: fill-content;
+}
+
+.menu-item {
+	padding: 3px 10px;
+	text-align: left;
+	font-family: arial;
+}
+
+
+.item {
+	font-weight: bold;
+}
+
+/*events*/
+
+.event {
+	margin: 30px 0px;
+}
