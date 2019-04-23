@@ -72,6 +72,7 @@ h1 {
 
 h2 {
 	padding-top: 50px;
+	text-align: center;
 }
 
 p {
@@ -132,15 +133,12 @@ p {
 }
 
 #kontakty {
-	text-align: center;
 	margin-top: 20px;
 }
 
 .kontakt {
 	text-align: left;
-	display: inline-block;
-	width: 300px;
-	margin: 10px 20px;
+	margin-top: 20px;
 }
 
 .small {
@@ -204,4 +202,67 @@ p {
 
 .event {
 	margin: 30px 0px;
+}
+
+.inner-menu-nav {
+	border-bottom: 2px solid grey;
+	margin-top: 20px;
+}
+
+.inner-menu-nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.inner-menu-nav ul li{
+	background-color: silver;
+	border: 2px solid silver;
+	border-bottom: 0px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px;
+}
+
+.inner-menu-nav * {
+	text-decoration: none;
+	color: black;
+}
+
+.inner-menu-nav ul li:hover {
+	background-color: grey;
+	border: 2px solid grey;
+	border-bottom: 0px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px;
+}
+
+.selected {
+	background-color: grey !important;
+	border: 2px solid grey !important;
+	border-bottom: 0px !important;
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+    #tohide {
+    	display: unset !important;
+    }
+}
+
+#gmap_canvas {
+	height: 300px;
+	width: 300px;
+	margin: 0px;
+	scroll-behavior: no;
+	border: none;
 }
