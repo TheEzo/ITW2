@@ -5,6 +5,7 @@
 .nav {
 	display: inline;
 	margin: 4px;
+	padding-right: 15px;
 }
 
 .right {
@@ -29,7 +30,7 @@
     padding: 10px;
     position: fixed;
     z-index: 2;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 body {
@@ -46,7 +47,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 	padding: 80px 0px 0px 0px;
-	min-height: -webkit-fill-available;
+	min-height: fill-content;
 }
 
 #container {
@@ -112,19 +113,20 @@ p {
     height: 23px;
     bottom: 0px;
     background-color: white;
-    width: -webkit-fill-available;
+    width: 100%;
     position: absolute;
     font-size: 12px;
     text-align: center;
     padding-top: 8px;
     border-radius: 50px 50px 0px 0px;
     opacity: 0.92;
+    position: fixed;
 }
 
 #page {
 	position: relative;
 	min-height: fit-content;
-	height: -webkit-fill-available;
+	height: fill-content;
 }
 
 .new-title {
